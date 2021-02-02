@@ -13,10 +13,10 @@
 
 <h4>Please fill out the form below to update your user info.</h4>
 
-<form action="">  
-<input type="text" name="uname" value="User Name..." onclick="this.value=''"/><br/>  
-<input type="password" name="uemail"  value="Password..." onclick="this.value=''"/><br/>  
-<input type="password" name="upass"  value="Confirm Password..." onclick="this.value=''"/><br/>  
+<form action="success">  
+<input type="text" name="uname" value="User Name..." onclick="this.value=''"/> New User Name<br/> 
+<input type="password" name="upass"  value="Password..." onclick="this.value=''"/> New Password<br/>  
+<input type="password" name="upassconfirm"  value="Password..." onclick="this.value=''"/> Confirm Password<br/>  
 <input type="submit" value="Update Account"/>  
 </form>  
 

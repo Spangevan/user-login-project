@@ -68,4 +68,11 @@ public class UserController {
 		
 		return "editUserInfo";
 	}
+	
+	@RequestMapping(value = "/success", method = RequestMethod.GET)
+	public String success(Model model) {
+		
+		
+		return "success";
+	}
 }
