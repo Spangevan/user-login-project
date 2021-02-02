@@ -62,5 +62,10 @@ public class UserController {
 	public String welcome(Model model) {
 		return "welcome";
 	}
-
+	
+	@RequestMapping(value = "/editUserInfo", method = RequestMethod.GET)
+		public String editUserInfo(Model model) {
+		
+		return "editUserInfo";
+	}
 }

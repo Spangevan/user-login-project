@@ -34,6 +34,8 @@
         <h2>Welcome ${pageContext.request.userPrincipal.name} | <a onclick="document.forms['logoutForm'].submit()">Logout</a></h2>
 
     </c:if>
+    
+    <h3><a href = "editUserInfo" >Click here to edit your account info</a></h3>
 
 </div>
 <!-- /container -->
